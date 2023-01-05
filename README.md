@@ -6,7 +6,8 @@ description: Baby steps of quantum mechanics
 
 ## Readings
 
-*
+* [An Introduction to Quantum Computing, Without the Physics](https://arxiv.org/abs/1708.03684)
+* [Quantum Computation and Quantum Information Michael A. Nielsen & Isaac L. Chuang 10th Anniversary Edition](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
 
 ## Content
 

@@ -13,5 +13,5 @@
 
 ## ⚒ Quantum Machine Learning
 
-* [Variational Quantum Eigensolver](quantum-machine-learning/variational-quantum-eigensolver.md)
-* [Quantum Approximation Optimization Algorithm](quantum-machine-learning/quantum-approximation-optimization-algorithm.md)
+* [⚒ Variational Quantum Eigensolver](quantum-machine-learning/variational-quantum-eigensolver.md)
+* [⚒ Quantum Approximation Optimization Algorithm](quantum-machine-learning/quantum-approximation-optimization-algorithm.md)
