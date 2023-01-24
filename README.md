@@ -48,7 +48,7 @@ We write the wave function $$\psi(x)$$ when it's describing position of a partic
 
 The wave function is in fact a complex probability amplitude in a sense that it's absolute value squared describes probability density, meaning the probability of finding the particle in the segment $$[x_0,x_1]$$.
 
-$$\int_{x_0}^{x_1}|f(x)|^2dx$$$$\integral$$
+$$\int_{x_0}^{x_1}|f(x)|^2dx$$
 
 In a 2-dimensional Hilbert space, that is more relevant for the basic understanding of quantum computing, the wave function that describes a superposition of two orthonormal states $$\ket0$$ and $$\ket1$$ will be written as $$\ket\psi = \alpha\ket0+\beta\ket1$$ so if we perform a measurement on the quantum state, we get the state $$0$$ with probability $$|\alpha|^2$$ and the state $$1$$ with probability $$|\beta|^2$$. In order for the wave function to represent probability density it must be normalized over the Hilbert space meaning $$\int_{-\infty}^{\infty}|f(x)|^2dx=1$$ and in our case $$|\alpha|^2+|\beta|^2=1$$, what happens in the measurement process is basically a **projection** in its algebraic sense, meaning, we compute the inner product of the wave function with the target state we want to check and then we get the probability amplitude of the target state, for example $$\bra0\ket\psi=\alpha\bra0\ket0+\beta\bra0\ket1=\alpha$$, notice that states $$\ket0$$ and $$\ket1$$ are **orthonormal** and we get $$P(0)=|\bra0\ket\psi|^2=\alpha^2$$.
 
