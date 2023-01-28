@@ -1,2 +1,2 @@
-# ⚒ Quantum Adiabatic Computation
+# Quantum Adiabatic Computation
 
