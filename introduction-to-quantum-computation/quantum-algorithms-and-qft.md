@@ -24,7 +24,7 @@ $$
 
 here's an illustration of the QFT process that will help get a better understanding
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>delta function should be transformed to a sinusoidal function</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>delta function should be transformed to a sinusoidal function</p></figcaption></figure>
 
 now we're going to use a binary basis defined with $$N=2^n$$, and $$\ket j$$ will be represented in a binary representation:
 
@@ -44,9 +44,9 @@ $$
 
 using this representations of $$j,k$$ we can write the sum that describe the above Fourier transform as the following multiplication
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>main identity of the QFT implementation - performing QFT iteratively</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>main identity of the QFT implementation - performing QFT iteratively</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>QFT as a tensor product of all elements</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>QFT as a tensor product of all elements</p></figcaption></figure>
 
 ## Quantum Circuit for Fourier Transform
 
@@ -54,7 +54,7 @@ As classic Fourier transform have many applications and influenced a lot of area
 
 with quantum fourier transform implementation we have as input the n qubit state $$\ket{j_1...j_n}$$ and we want to implement a quantum circle that will give us as ooutput the fourier transform of the state, so we use the above identity:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>QFT as a tensor product of all elements</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>QFT as a tensor product of all elements</p></figcaption></figure>
 
 to give us a clue of how to build the gates in our circuit.
 

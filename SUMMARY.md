@@ -10,6 +10,7 @@
 * [Cloning & Quantum Cryptography](introduction-to-quantum-computation/cloning-and-quantum-cryptography.md)
 * [Quantum Algorithms](introduction-to-quantum-computation/quantum-algorithms.md)
 * [⚒ Quantum Algorithms & QFT](introduction-to-quantum-computation/quantum-algorithms-and-qft.md)
+* [Grover's Algorithm](introduction-to-quantum-computation/grovers-algorithm.md)
 
 ## ⚒ Quantum Machine Learning
 
