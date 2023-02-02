@@ -24,7 +24,7 @@ $$
 
 here's an illustration of the QFT process that will help get a better understanding
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>delta function should be transformed to a sinusoidal function</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>delta function should be transformed to a sinusoidal function</p></figcaption></figure>
 
 now we're going to use a binary basis defined with $$N=2^n$$, and $$\ket j$$ will be represented in a binary representation:
 

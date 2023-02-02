@@ -60,7 +60,7 @@ that spans $$N=2^n$$ possibilities (can also be thinking of as different places 
 
 the algorithm proceeds by operating a subroutine, called **Grover's iteration** and is marked with G, for $$\sqrt N$$ times and ends as usual with measurement. schematically it looks like:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Grover's search algorithm scheme</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Grover's search algorithm scheme</p></figcaption></figure>
 
 the G operation is constructed from 4 steps:
 
@@ -72,7 +72,7 @@ the G operation is constructed from 4 steps:
 
 the routine should look like this:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>G operation routine</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>G operation routine</p></figcaption></figure>
 
 what happens in steps 2-4 is basically:
 
@@ -134,7 +134,7 @@ $$
 
 these above definitions allow us to describe the _Grover iteration_ on a plane:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Grover iteration on a plane</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Grover iteration on a plane</p></figcaption></figure>
 
 now we can identify that operator _O_ is doing reflection of the initial state $$\ket\psi$$ respectively to the $$\ket\alpha$$ axis, meaning:
 

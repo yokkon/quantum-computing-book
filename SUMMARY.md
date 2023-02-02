@@ -5,7 +5,7 @@
 * [⚒ Qubit Linear Algebra & Schrodinger Equation](README.md)
 * [Density Matrix](introduction-to-quantum-computation/density-matrix.md)
 * [Tensor Product](introduction-to-quantum-computation/tensor-product.md)
-* [Entanglement](introduction-to-quantum-computation/entanglement.md)
+* [⚒ Entanglement](introduction-to-quantum-computation/entanglement.md)
 * [Entanglement & Entropy](introduction-to-quantum-computation/entanglement-and-entropy.md)
 * [Cloning & Quantum Cryptography](introduction-to-quantum-computation/cloning-and-quantum-cryptography.md)
 * [Quantum Algorithms](introduction-to-quantum-computation/quantum-algorithms.md)
