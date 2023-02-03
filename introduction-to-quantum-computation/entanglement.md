@@ -1,10 +1,16 @@
+---
+description: >-
+  This page explains the theories and paradoxes behind quantum entanglement of
+  particles and how it applies to quantum computation
+---
+
 # ⚒ Entanglement
 
 ## Content
 
-* Bell theorem and the EPR
+* Bell theorem and the EPR paradox
 * quantum correlations and inequalities, CHSH
-* Mermin Peres magic square
+* Peres-Mermin magic square
 * GHZ paradox
 * how to identify entanglement
 
@@ -23,14 +29,7 @@ this statement is generally true:
 **proof:** we can write the eigen vectors of $$\vec{\sigma} \cdot \hat{v}$$ with $$\ket{a},\ket{b}$$ and get
 
 $$
-\ket0=\alpha\ket{a}+\beta\ket{b}
-$$
-
-$$
-\ket1=\gamma\ket{a}+\delta\ket{b}
-$$
-
-$$
+\ket0=\alpha\ket{a}+\beta\ket{b}\newline \ket1=\gamma\ket{a}+\delta\ket{b} \newline
 \frac{\ket{01}-\ket{10}}{\sqrt2} \rarr (\alpha\gamma-\beta\delta) \rarr \frac{\ket{ab}-\ket{ba}}{\sqrt2}
 $$
 
@@ -71,7 +70,81 @@ $$
 QS+RS+RT-QT=S\left( Q + R \right) + T\left( R - Q \right)
 $$
 
-Because $$R,Q=\pm1$$ it follows that either
+Because $$R,Q=\pm1$$ it follows that either $$S(Q+R)=0\space or \space T(R-Q)=0$$. in either case e, it is easy to see that $$QS+RS+RT-QT=\pm2$$.\
+Suppose next that $$p(q, r, s, t)$$ is the probability that, before the measurements are performed, the system is in a state where $$Q=q,R=r,S=s,T=t$$ as you remember we're looking at the system as a "hidden variables" that were given before the measurement. These probabilities may depend on how Charlie performs his preparation, Letting $$E(·)$$ denote the mean value of a quantity, we have:
 
+$$
+E(QS+RS+RT-QT)=\sum_{qrst}p(q,r,s,t)\newline \times (qs+rs+rt-qt)\le\sum_{qrst}p(q,r,s,t)\times2=2
+$$
 
+Also,
 
+$$
+E(QS + RS + RT − QT)=\sum_{qrst}p(q,r,s,t)qs+\newline \sum_{qrst}p(q,r,s,t)rs + \sum_{qrst}p(q,r,s,t)rt - \sum_{qrst}p(q,r,s,t)qt \newline =E(QS) + E(RS) + E(RT) − E(QT)
+$$
+
+using above results we obtain _Bell's inequality_
+
+$$
+E(QS) + E(RS) + E(RT) − E(QT)\le2
+$$
+
+By repeating the experiment many times, Alice and Bob can determine each quantity on the left hand side of the Bell inequality.\
+After finishing a set of experiments, Alice and Bob get together to analyze their data. They look at all the experiments where Alice measured $$P_Q$$ and Bob measured $$P_S$$. By multiplying the results of their experiments together, they get a sample of values for $$QS$$. By averaging over this sample, they can estimate $$E(QS)$$ to an accuracy only limited by the number of experiments which they perform.
+
+Now let's show that quantum mechanics allows $$B_{CHSH}\gt2$$, Assuming Charlie prepares a quantum system of two qubits in the state
+
+$$
+\ket\psi = \frac{\ket{01}-\ket{10}}{\sqrt2}
+$$
+
+He passes the first qubit to Alice, and the second qubit to Bob. They perform measurements of the following observables:
+
+$$
+Q=Z_1,\space S=\frac{-Z_2-X_2}{\sqrt2}\newline
+R=X_1,\space T=\frac{Z_2+X_2}{\sqrt2}
+$$
+
+Simple calculations show that the average values for these observables, written in the quantum mechanical $$\langle \space·\rangle$$ notation, are:
+
+$$
+\langle QS \rangle = \frac{1}{\sqrt2};\langle RS \rangle = \frac{1}{\sqrt2};\langle RT \rangle = \frac{1}{\sqrt2};\langle QS \rangle = -\frac{1}{\sqrt2}
+\newline
+4\gt\langle B_{CHSH}\rangle = 2\sqrt2\gt2
+$$
+
+**The assumptions made in Bell's Experiment**
+
+1. The assumption that the physical properties $$PQ, PR, PS, PT$$ have definite values $$Q, R, S, T$$ which exist independent of observation. This is sometimes known as the assumption of _realism_.&#x20;
+2. The assumption that Alice performing her measurement does not influence the result of Bob’s measurement. This is sometimes known as the assumption of _locality._
+
+These two assumptions together are known as the assumptions of _local realism_.\
+What can we learn from Bell’s inequality? The world is **not** locally realistic.
+
+## Peres-Mermin's Magic Square
+
+TODO
+
+## GHZ Paradox
+
+TODO
+
+## Ways to Identify Entanglement
+
+Now we'll show a few ways to identify if a given quantum state is an entangled state
+
+#### Inseparable state
+
+TODO
+
+#### Bell's inequality
+
+TODO
+
+#### Peres–Horodecki Criteria
+
+TODO
+
+#### Entanglement Entropy
+
+TODO
