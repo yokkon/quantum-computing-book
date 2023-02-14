@@ -62,7 +62,7 @@ Imagine we perform the following experiment:
 
 The timing of the experiment is arranged so that Alice and Bob do their measurements at the same time, Therefore, the measurement which Alice performs cannot disturb the result of Bob’s measurement (or vice versa), since physical influences cannot propagate faster than light.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Bell's experiment illustration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Bell's experiment illustration</p></figcaption></figure>
 
 It's time for some algebra:
 
@@ -108,7 +108,7 @@ $$
 Simple calculations show that the average values for these observables, written in the quantum mechanical $$\langle \space·\rangle$$ notation, are:
 
 $$
-\langle QS \rangle = \frac{1}{\sqrt2};\langle RS \rangle = \frac{1}{\sqrt2};\langle RT \rangle = \frac{1}{\sqrt2};\langle QS \rangle = -\frac{1}{\sqrt2}
+\langle QS \rangle = \frac{1}{\sqrt2};\langle RS \rangle = \frac{1}{\sqrt2};\langle RT \rangle = \frac{1}{\sqrt2};\langle QT \rangle = -\frac{1}{\sqrt2}
 \newline
 4\gt\langle B_{CHSH}\rangle = 2\sqrt2\gt2
 $$

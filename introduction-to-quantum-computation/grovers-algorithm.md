@@ -4,7 +4,7 @@ description: >-
   over it to understand how and why it works
 ---
 
-# Grover's Algorithm
+# 👍 Grover's Algorithm
 
 ## Readings
 
@@ -72,7 +72,7 @@ the G operation is constructed from 4 steps:
 
 the routine should look like this:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>G operation routine</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>G operation routine</p></figcaption></figure>
 
 what happens in steps 2-4 is basically:
 
