@@ -43,7 +43,7 @@ Two slit experiment is considered to fold in it the secrets of quantum mechanics
 ## Wave function
 
 The position probability (or every other attribute) of the particle can be described with a **wave function.**\
-****One can think of the wave function as a state in the Hilbert space (complete inner product space) or just as a vector (finite or infinite depends on the amount of values an attribute can have).\
+One can think of the wave function as a state in the Hilbert space (complete inner product space) or just as a vector (finite or infinite depends on the amount of values an attribute can have).\
 We write the wave function $$\psi(x)$$ when it's describing position of a particle, but usually we write the quantum state as $$\ket\psi$$.
 
 The wave function is in fact a complex probability amplitude in a sense that it's absolute value squared describes probability density, meaning the probability of finding the particle in the segment $$[x_0,x_1]$$.

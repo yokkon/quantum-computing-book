@@ -1,4 +1,4 @@
-# Tensor Product
+# ⚒ Tensor Product
 
 ## Content
 
@@ -8,7 +8,7 @@
 
 ## 2 and 3 Qubits Systems
 
-Assuming that $$H_A$$ is a Hilbert space for system $$A$$ and $$H_B$$ is a Hilbert space for system $$B$$, we can define the **tensor product** of those spaces as $$H_A \dotcross$$$$H_A\otimes H_B$$ and this space contains all the dual-particle states where one particle is from system $$A$$ and the second one from system $$B$$.\
+Assuming that $$H_A$$ is a Hilbert space for system $$A$$ and $$H_B$$ is a Hilbert space for system $$B$$, we can define the **tensor product** of those spaces as $$H_A\otimes H_B$$ and this space contains all the dual-particle states where one particle is from system $$A$$ and the second one from system $$B$$.\
 Hence if $$\{\ket i_A\}_{i=1...n}$$ is the basis of $$H_A$$ and $$\{\ket j_B\}_{j=1...m}$$ is the basis of $$H_B$$ then $$\{\ket i_A \ket j_B\}_{i=1...n,j=1...m}$$is the basis of the tensor product of the two spaces $$H_A\otimes H_B$$ with $$m \times n$$ vectors in the basis.
 
 Notice that $$\ket i_A \ket j_B$$ is a short way of writing $$\ket i_A \otimes \ket j_B$$ which sometimes being written as $$\ket i \ket j$$ and even $$\ket {ij}$$ - this is the dual particle state.
